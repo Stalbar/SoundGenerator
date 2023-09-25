@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.DefaultSigna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.PolyhormonicalSingalGenerator", "SoundGenerator.PolyhormonicalSingalGenerator\SoundGenerator.PolyhormonicalSingalGenerator.csproj", "{A91477B4-1F52-4305-B390-C7E61976A4AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.AmplitudeModulation", "SoundGenerator.AmplitudeModulation\SoundGenerator.AmplitudeModulation.csproj", "{8F005F4B-51F6-4735-B3E5-1DF72261A235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F005F4B-51F6-4735-B3E5-1DF72261A235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F005F4B-51F6-4735-B3E5-1DF72261A235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F005F4B-51F6-4735-B3E5-1DF72261A235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F005F4B-51F6-4735-B3E5-1DF72261A235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
