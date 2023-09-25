@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.Core", "SoundGenerator.Core\SoundGenerator.Core.csproj", "{97E84C5A-E3A1-4A3D-9CFA-E3B19D1E6AC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.DefaultSignalGenerator", "SoundGenerator.DefaultSignalGenerator\SoundGenerator.DefaultSignalGenerator.csproj", "{42F007A4-C4D0-4188-B834-81AEA8B05537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGenerator.PolyhormonicalSingalGenerator", "SoundGenerator.PolyhormonicalSingalGenerator\SoundGenerator.PolyhormonicalSingalGenerator.csproj", "{A91477B4-1F52-4305-B390-C7E61976A4AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{97E84C5A-E3A1-4A3D-9CFA-E3B19D1E6AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E84C5A-E3A1-4A3D-9CFA-E3B19D1E6AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E84C5A-E3A1-4A3D-9CFA-E3B19D1E6AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F007A4-C4D0-4188-B834-81AEA8B05537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F007A4-C4D0-4188-B834-81AEA8B05537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F007A4-C4D0-4188-B834-81AEA8B05537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F007A4-C4D0-4188-B834-81AEA8B05537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91477B4-1F52-4305-B390-C7E61976A4AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

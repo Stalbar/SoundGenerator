@@ -23,5 +23,5 @@ public class PulseSignalGenerator : ISignalGenerator
     }
 
     public double GenerateSignalValue(double amplitude, double frequency, double n, double sampleRate, double initialPhase, double dutyCycle)
-        => (2 * Math.PI * frequency * n / sampleRate + initialPhase) % (2 * Math.PI) / 2 * Math.PI <= dutyCycle ? amplitude : -amplitude;
+        => ((2 * Math.PI * frequency * n / sampleRate + initialPhase) % (2 * Math.PI)) / (2 * Math.PI) <= dutyCycle ? amplitude : -amplitude;
 }
